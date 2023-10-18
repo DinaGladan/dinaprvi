@@ -1,4 +1,5 @@
-﻿#include<stdio.h>
+﻿#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
 #include<stdlib.h>
 #define MAX_LINE 1024
 #define MAX_SIZE 50
@@ -13,23 +14,33 @@
 
 typedef struct _student { //tip strukture je _student, a ime je Student
 
-	char name;
-	char surname;
+	char name[MAX_SIZE];
+	char surname[MAX_SIZE];
 	double points;
+
 }Student;
 
 int readNoRowsInFile() {
 	int counter = 0;
-	FILE* filePointer = NULL;
-	char buffer[MAX_LINE] = {0};
-	filePointer= fopen("students.txt", "r");
+	FILE* fp = NULL;
+	char buffer[MAX_LINE] = { 0 };
+	fp = fopen("students.txt", "r");
+	if (!fp) {
+		printf("\nNema nis");
+		return FILE_ERROR_OPEN;
+	}
+	while (!feof(fp)) {
+		fgets(buffer, MAX_LINE, fp);
+		counter++;
+	}
 
-	fclose(filePointer);
+	fclose(fp);
+	return counter;
 }
 
 int main() {
-	int noRows=0;
+	int noRows = 0;
+	noRows = readNoRowsInFile();
 	printf("%d", noRows);
-
 	return 0;
 }

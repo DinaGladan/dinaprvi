@@ -1,2 +1,4 @@
 ﻿  lab1.c
+C:\Users\Korisnik\Desktop\STRUKTURE\dinaprvi\vjezba1-grupa 3\vjezba1-grupa 3\lab1.c(52,25): warning C4098: 'readFromFile': 'void' function returning a value
+C:\Users\Korisnik\Desktop\STRUKTURE\dinaprvi\vjezba1-grupa 3\vjezba1-grupa 3\lab1.c(67,42): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
   vjezba1-grupa 3.vcxproj -> C:\Users\Korisnik\Desktop\STRUKTURE\dinaprvi\vjezba1-grupa 3\Debug\vjezba1-grupa 3.exe

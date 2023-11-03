@@ -1,8 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\vjezba1-grupa 3"
+    "\\vjezba 1",
+    "\\vjezba 1\\vjezba1-grupa 3",
+    "\\vjezba 2 I 3",
+    "\\vjezba 2 I 3\\2.zadatak",
+    "\\vjezba 2 I 3\\2.zadatak\\2.zadatak",
+    "\\vjezba 2 I 3\\3.zadatak",
+    "\\vjezba 2 I 3\\3.zadatak\\3.zadatak"
   ],
-  "SelectedNode": "\\vjezba1-grupa 3\\vjezba1-grupa 3.sln",
+  "SelectedNode": "\\vjezba 2 I 3\\3.zadatak\\3.zadatak\\zadatak3.c",
   "PreviewInSolutionExplorer": false
 }

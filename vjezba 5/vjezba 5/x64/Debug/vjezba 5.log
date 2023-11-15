@@ -1,0 +1,3 @@
+﻿  zadatak5.c
+C:\Users\Korisnik\Desktop\STRUKTURE\strukture_podataka\vjezba 5\vjezba 5\zadatak5.c(62,9): warning C4047: 'return': 'int' differs in levels of indirection from 'void *'
+  vjezba 5.vcxproj -> C:\Users\Korisnik\Desktop\STRUKTURE\strukture_podataka\vjezba 5\x64\Debug\vjezba 5.exe

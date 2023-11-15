@@ -15,12 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="zadatak4.c">
+    <ClCompile Include="zadatak5.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="polynomes.txt">
+    <Text Include="postfix.txt">
       <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>

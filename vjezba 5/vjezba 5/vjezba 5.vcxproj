@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{cedc46ec-dd10-4f2d-85a8-4353152788cd}</ProjectGuid>
-    <RootNamespace>vjezba4</RootNamespace>
+    <ProjectGuid>{94c77f0d-d0ac-4f03-8abe-8e7464cad903}</ProjectGuid>
+    <RootNamespace>vjezba5</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,10 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="zadatak4.c" />
+    <ClCompile Include="zadatak5.c" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="polynomes.txt" />
+    <Text Include="postfix.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

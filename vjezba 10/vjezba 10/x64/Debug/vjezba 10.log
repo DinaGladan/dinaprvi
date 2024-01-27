@@ -1,0 +1,11 @@
+﻿  zadatak10.c
+C:\Users\Korisnik\Desktop\STRUKTURE\strukture_podataka\vjezba 10\vjezba 10\zadatak10.c(587,3): warning C4047: 'return': 'PositionCountry' differs in levels of indirection from 'int'
+C:\Users\Korisnik\Desktop\STRUKTURE\strukture_podataka\vjezba 10\vjezba 10\zadatak10.c(622,4): warning C4047: 'return': 'PositionCountry' differs in levels of indirection from 'int'
+C:\Users\Korisnik\Desktop\STRUKTURE\strukture_podataka\vjezba 10\vjezba 10\zadatak10.c(646,3): warning C4047: 'return': 'PositionCity' differs in levels of indirection from 'int'
+C:\Users\Korisnik\Desktop\STRUKTURE\strukture_podataka\vjezba 10\vjezba 10\zadatak10.c(695,14): warning C4133: '=': incompatible types - from 'PositionCity' to 'PositionCountry'
+C:\Users\Korisnik\Desktop\STRUKTURE\strukture_podataka\vjezba 10\vjezba 10\zadatak10.c(698,15): warning C4133: '=': incompatible types - from 'PositionCity' to 'PositionCountry'
+C:\Users\Korisnik\Desktop\STRUKTURE\strukture_podataka\vjezba 10\vjezba 10\zadatak10.c(701,3): warning C4133: 'return': incompatible types - from 'PositionCountry' to 'PositionCity'
+C:\Users\Korisnik\Desktop\STRUKTURE\strukture_podataka\vjezba 10\vjezba 10\zadatak10.c(704,3): warning C4133: 'return': incompatible types - from 'PositionCountry' to 'PositionCity'
+C:\Users\Korisnik\Desktop\STRUKTURE\strukture_podataka\vjezba 10\vjezba 10\zadatak10.c(660): warning C4172: returning address of local variable or temporary: Head
+C:\Users\Korisnik\Desktop\STRUKTURE\strukture_podataka\vjezba 10\vjezba 10\zadatak10.c(706): warning C4715: 'search': not all control paths return a value
+  vjezba 10.vcxproj -> C:\Users\Korisnik\Desktop\STRUKTURE\strukture_podataka\vjezba 10\x64\Debug\vjezba 10.exe
